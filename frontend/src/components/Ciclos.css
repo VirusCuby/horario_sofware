@@ -1,0 +1,81 @@
+.ciclos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 1rem 0;
+  }
+  
+  .form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+  
+  .input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-create {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-create:hover {
+    background-color: #0056b3;
+  }
+  
+  .ciclos-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .ciclo-item {
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .ciclo-item:hover {
+    background: #f0f8ff;
+  }
+  

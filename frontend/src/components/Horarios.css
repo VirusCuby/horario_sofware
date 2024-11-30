@@ -1,0 +1,113 @@
+.horarios-container {
+    padding: 2rem;
+    background: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 2rem;
+  }
+  
+  .buscar-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-search {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-search:hover {
+    background-color: #0056b3;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #555;
+  }
+  
+  .horarios-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .horarios-table th,
+  .horarios-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .horarios-table th {
+    background: #007bff;
+    color: white;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #003366;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-assign {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+  }
+  
+  .btn-assign:hover {
+    background-color: #218838;
+  }
+  
