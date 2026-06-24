@@ -1,0 +1,11 @@
+name: Prueba Heuristica
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Ejecutando prueba de usabilidad..."
+      - run: sleep 15
